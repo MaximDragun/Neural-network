@@ -207,7 +207,7 @@ model.add(Dense(neuron_amount, activation='relu', name='fc2'))
 model.add(Dense(neuron_amount, activation='relu', name='fc3'))
 model.add(Dense(neuron_amount, activation='relu', name='fc4'))
 model.add(Dense(neuron_amount, activation='relu', name='fc5'))
-model.add(Dense(6, activation='softmax', name='output'))
+#model.add(Dense(6, activation='softmax', name='output'))
 # optimizer = Adam(lr=0.001)
 #optimizer = 'adam'
 model.compile(optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
