@@ -207,6 +207,7 @@ warnings.simplefilter(action='ignore', category=DeprecationWarning)
 # model.add(Dense(neuron_amount, activation='relu', name='fc3'))
 # model.add(Dense(neuron_amount, activation='relu', name='fc4'))
 # model.add(Dense(neuron_amount, activation='relu', name='fc5'))
+#model.add(Dense(neuron_amount, activation='relu', name='fc6'))
 # model.add(Dense(6, activation='softmax', name='output'))
 # # optimizer = Adam(lr=0.001)
 # optimizer = 'Nadam'
@@ -227,7 +228,7 @@ warnings.simplefilter(action='ignore', category=DeprecationWarning)
 # print('\n\n=========Model=========\n')
 # history_callback = model.fit(X_train, Y_train,
 #                              batch_size=5,
-#                              epochs=50,
+#                              epochs=1500,
 #                              verbose=0,
 #                              validation_data=(X_test, Y_test),
 #                              callbacks=[cb])
