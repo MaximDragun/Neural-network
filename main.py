@@ -201,7 +201,7 @@ warnings.simplefilter(action='ignore', category=DeprecationWarning)
 # ======= Start ========== Neuron Net: Create Net =======================================
 
 model = Sequential()
-neuron_amount = 8
+#neuron_amount = 8
 #model.add(Dense(neuron_amount, input_shape=(3,), activation='relu', name='fc1'))
 #model.add(Dense(neuron_amount, activation='relu', name='fc2'))
 #model.add(Dense(neuron_amount, activation='relu', name='fc3'))
