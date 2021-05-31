@@ -152,7 +152,7 @@ warnings.simplefilter(action='ignore', category=DeprecationWarning)
 # 6 — здания (крыши) (Building)
 # 7 — ложно отраженные точки (Low point)
 # 8 — Model keypoints
-# 9 — Other points
+# 9 — Other points.
 
 # columns = ["res", "X", "Y", "Z"]
 
