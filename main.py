@@ -210,7 +210,7 @@ neuron_amount = 8
 #model.add(Dense(6, activation='softmax', name='output'))
 # optimizer = Adam(lr=0.001)
 #optimizer = 'adam'
-model.compile(optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
+#model.compile(optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
 model.summary()
 
