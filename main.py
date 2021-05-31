@@ -81,7 +81,7 @@ warnings.simplefilter(action='ignore', category=DeprecationWarning)
 
 # ======= Start ========== Create two databases for learning and test ==================
 
-# examples_per_point = 1000
+# examples_per_point = 2000
 # #data two
 # data = pd.read_csv('point db/data_two.csv')
 # data_two = data.sample(n=(examples_per_point * 2), replace=True)
